@@ -5,7 +5,6 @@ import { StyleHighlights } from "@/components/StyleHighlights";
 import { ProductsGrid } from "@/components/ProductsGrid";
 import { AboutSection } from "@/components/AboutSection";
 import { Testimonials } from "@/components/Testimonials";
-import { InstagramFeed } from "@/components/InstagramFeed";
 import { Newsletter } from "@/components/Newsletter";
 import { Footer } from "@/components/Footer";
 
@@ -19,7 +18,6 @@ const Index = () => {
       <ProductsGrid />
       <AboutSection />
       <Testimonials />
-      <InstagramFeed />
       <Newsletter />
       <Footer />
     </div>

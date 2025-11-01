@@ -1,10 +1,10 @@
-import { Instagram, Facebook, Twitter } from "lucide-react";
+
 
 export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4">S&S Fashion</h3>
             <p className="text-sm opacity-80">
@@ -30,21 +30,6 @@ export const Footer = () => {
               <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Returns</a></li>
               <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Size Guide</a></li>
             </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Follow Us</h4>
-            <div className="flex space-x-4">
-              <a href="https://instagram.com/snsfashion.official" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity">
-                <Instagram className="w-6 h-6" />
-              </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition-opacity">
-                <Facebook className="w-6 h-6" />
-              </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition-opacity">
-                <Twitter className="w-6 h-6" />
-              </a>
-            </div>
           </div>
         </div>
         
